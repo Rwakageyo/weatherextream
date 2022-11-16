@@ -5,7 +5,6 @@ import plotly.graph_objects as go
 ##import hydralit_components as hc
 
 from PIL import Image
-from PIL import Image
 
 st.set_page_config(
     page_title="Rwanda weather Extrem",
