@@ -83,26 +83,26 @@ elif chart_visual == 'Bubble Chart':
         fig.add_trace(go.Scatter(x=data.District, 
                                  y=data.Value_mm,
                                  mode='markers',
-                                 marker_size=[40, 60, 80, 60, 40, 50],
+                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
                                  name='Station_name'))
           
     if selected_status == 'Elementd':
         fig.add_trace(go.Scatter(x=data.District, y=data.Elements,
                                  mode='markers', 
-                                 marker_size=[40, 60, 80, 60, 40, 50],
+                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
                                  name='Elementd'))
           
     if selected_status == 'Station_name':
         fig.add_trace(go.Scatter(x=data.District,
                                  y=data.Station,
                                  mode='markers', 
-                                 marker_size=[40, 60, 80, 60, 40, 50],
+                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
                                  name = 'Station_name'))
     if selected_status == 'Station_name':
         fig.add_trace(go.Scatter(x=data.District,
                                  y=data.Dates,
                                  mode='markers',
-                                 marker_size=[40, 60, 80, 60, 40, 50], 
-                                 name="Unknown"))
+                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
+                                 name="Value_mm"))
   
 st.plotly_chart(fig, use_container_width=True)
