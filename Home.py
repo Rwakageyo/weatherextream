@@ -41,8 +41,8 @@ chart_visual = st.sidebar.selectbox('Select Charts/Plot type',
   
 st.sidebar.checkbox("Show Analysis by Extreme Status", True, key = 1)
 selected_status = st.sidebar.selectbox('Select Extreme Status',
-                                       options = [' Station_name', 
-                                                  'Value_mm','Province','District', 
+                                       options = ['Province', 
+                                                  'District','Station_name','Value_mm', 
                                                   'Date'])
 
 fig = go.Figure()
