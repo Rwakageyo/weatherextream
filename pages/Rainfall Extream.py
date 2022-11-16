@@ -14,6 +14,8 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
+st.beta_set_page_config(page_title='your_title', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
+# favicon being an object of the same kind as the one you should provide st.image() with (ie. a PIL array for example) or a string (url or local file path)
   
 st.title("Rainfall Extream Dashboard")
 st.markdown("This is the Rainfall  Extrem values computed from 1986 to 2021 will help a researcher to get to know \
