@@ -51,7 +51,7 @@ if chart_visual == 'Line Chart':
     if selected_status == 'STN_Name':
         fig.add_trace(go.Scatter(x = data.STN_Name, y = data.Value_mm,
                                  mode = 'lines',
-                                 name = 'STN_Name'))
+                                 name = 'Value_mm'))
     if selected_status == 'Elementd':
         fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
                                  mode = 'lines', name = 'Value_mm'))
