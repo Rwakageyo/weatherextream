@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 ##image = Image.open('logos.png')
 ##st.image(image)
   
-st.title("Temperature Minimum  Extrem Dashboard")
+st.title("Rainfall Extream Dashboard")
 st.markdown("The dashboard will help a researcher to get to know \
 more about the given datasets and it's output")
 
