@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.graph_objects as go
 ##import hydralit_components as hc
 
-from PIL import Image
-image = Image.open('logos.png')
-st.image(image)
+#from PIL import Image
+#image = Image.open('logos.png')
+#st.image(image)
   
 st.title("Temperature Minimum  Extrem Dashboard")
 
