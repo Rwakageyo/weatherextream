@@ -14,7 +14,7 @@ st.set_page_config(
     
 )
 
-image = Image.open('logos.png')
+image = Image.open('Govlogo.png')
 image2 = Image.open('logos.png')
 
 ##st.image(image, caption=None, use_column_width='auto')
