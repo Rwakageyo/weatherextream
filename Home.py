@@ -49,30 +49,30 @@ fig = go.Figure()
   
 if chart_visual == 'Line Chart':
     if selected_status == 'Station':
-        fig.add_trace(go.Scatter(x = data.Station, y = data.Value,
+        fig.add_trace(go.Scatter(x = data.Station, y = data.Value_mm,
                                  mode = 'lines',
                                  name = 'Station'))
     if selected_status == 'Elementd':
-        fig.add_trace(go.Scatter(x = data.District, y = data.Value,
-                                 mode = 'lines', name = 'Value'))
+        fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
+                                 mode = 'lines', name = 'Value_mm'))
     if selected_status == 'Station':
-        fig.add_trace(go.Scatter(x = data.District, y = data.Value,
+        fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
                                  mode = 'lines',
-                                 name = 'Value'))
-    if selected_status == 'Value': 
+                                 name = 'Value_mm'))
+    if selected_status == 'Value_mm': 
         fig.add_trace(go.Scatter(x=data.District, y=data.Province,
                                  mode='lines',
                                  name="Province"))
   
 elif chart_visual == 'Bar Chart':
     if selected_status == 'Station':
-        fig.add_trace(go.Bar(x=data.District, y=data.Value,
-                             name='Value'))
+        fig.add_trace(go.Bar(x=data.District, y=data.Value_mm,
+                             name='Value_mm'))
     if selected_status == 'Element':
-        fig.add_trace(go.Bar(x=data.District, y=data.Value,
+        fig.add_trace(go.Bar(x=data.District, y=data.Value_mm,
                              name='Station'))
     if selected_status == 'Province':
-        fig.add_trace(go.Bar(x=data.District, y=data.Value,
+        fig.add_trace(go.Bar(x=data.District, y=data.Value_mm,
                              name='Station'))
     if selected_status == 'Unknown':
         fig.add_trace(go.Bar(x=data.District, y=data.Unknown,
