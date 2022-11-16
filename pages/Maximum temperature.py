@@ -4,12 +4,12 @@ import pandas as pd
 import plotly.graph_objects as go
 #import plotly.express as px
 ##import matplotlib.pyplot as plt
-##from PIL import Image
+from PIL import Image
 
-#st.sidebar.image('D:\Radar_Files\Radar_files2DM\extremes\logos.png', use_column_width=True)
+ st.sidebar.image('logos.png', use_column_width=True)
 
 
-##image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
+#image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
 ##image2 = Image.open('D:\Radar_Files\Radar_files2DM\extremes\ext.png')
 
 #st.image(image, caption=None, use_column_width='auto')
