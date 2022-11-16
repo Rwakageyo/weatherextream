@@ -3,11 +3,8 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
+from PIL import Image
+
 st.set_page_config(
     page_title="Rwanda weather Extrem",
     page_icon="🧊",
@@ -15,6 +12,26 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     
 )
+
+image = Image.open('Govlogo.png')
+image2 = Image.open('logos.png')
+
+##st.image(image, caption=None, use_column_width='auto')
+
+col1,col2=st.columns([2,2])
+
+with col1:
+    st.image(image,width=30,use_column_width='auto')
+with col2:
+    st.image(image2,width=30,use_column_width='auto')
+
+
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 ##import hydralit_components as hc
 
