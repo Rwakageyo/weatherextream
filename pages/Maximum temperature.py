@@ -6,7 +6,8 @@ import plotly.graph_objects as go
 ##import matplotlib.pyplot as plt
 from PIL import Image
 
- st.sidebar.image('logos.png', use_column_width=True)
+image = Image.open('logos.png')
+st.image(image)
 
 
 #image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
@@ -16,8 +17,8 @@ from PIL import Image
 
 ##col1,col2=st.columns([2,2])
 
-##with col1:
-    ###st.image(image,width=360,use_column_width='auto')
+with col1:
+      st.image(image,width=50,use_column_width='auto')
 ##with col2:
     ##st.image(image2,width=360,use_column_width='auto')
 
