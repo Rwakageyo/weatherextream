@@ -16,7 +16,7 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 st.title("Rainfall Extrem ")
-st.markdown("The app will help a researcher to get to know \
+st.markdown("This is the Rainfall Extrem values computed from 1986 to 2021 will help a researcher to get to know \
 more about the given datasets and it's output")
 
 
