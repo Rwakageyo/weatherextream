@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 from PIL import Image
 ##image = Image.open('logos.png')
-st.image(image)
+##st.image(image)
   
 st.title("Temperature Minimum  Extrem Dashboard")
 st.markdown("The dashboard will help a researcher to get to know \
