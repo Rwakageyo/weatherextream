@@ -13,7 +13,7 @@ more about the given datasets and it's output")
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
   
-data = pd.read_csv("C:/Users/METEO/Desktop/Extreamapp/Extremes.csv")
+data = pd.read_csv("Extreamapp/Extremes.csv")
 ### data = pd.read_csv('D:\Extremes.csv')
 
 Province_select = data['Province'].drop_duplicates()
