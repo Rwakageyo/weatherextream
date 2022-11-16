@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 ##import hydralit_components as hc
 
 from PIL import Image
-image = Image.open('logos.png')
+##image = Image.open('logos.png')
 st.image(image)
   
 st.title("Temperature Minimum  Extrem Dashboard")
