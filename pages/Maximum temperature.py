@@ -27,7 +27,7 @@ import plotly.graph_objects as go
 st.title(' Rwanda Climate Extremes Breaking Records')
 
 st.markdown("This is the  Maximum Temperature  Extrem values computed from 1986 to 2021 will help a researcher to get to know \
-more about the given datasets and it's output")')
+more about the given datasets and it's output")
 
 data = pd.read_csv('Tmax.csv')
 
