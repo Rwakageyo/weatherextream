@@ -17,8 +17,8 @@ image = Image.open('logos.png')
 
 col1=st.columns([1])
 
-with col1:
-    st.image(image,width=360,use_column_width='auto')
+##with col1:
+st.image(image,width=60,use_column_width='auto')
 
 
 hide_menu_style = """
