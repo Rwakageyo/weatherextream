@@ -6,6 +6,14 @@ import plotly.graph_objects as go
 ##import matplotlib.pyplot as plt
 from PIL import Image
 
+st.set_page_config(
+    page_title="Rwanda weather Extrem",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    
+)
+
 image = Image.open('logos.png')
 image2 = Image.open('logos.png')
 
@@ -24,13 +32,7 @@ hide_menu_style = """
         #MainMenu {visibility: hidden;}
         </style>
         """
-st.set_page_config(
-    page_title="Rwanda weather Extrem",
-    page_icon="🧊",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    
-)
+
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 st.title(' Rwanda Climate Extremes Breaking Records')
