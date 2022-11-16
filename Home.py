@@ -15,8 +15,8 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-st.title("Rainfall Extream Dashboard")
-st.markdown("The dashboard will help a researcher to get to know \
+st.title("Rainfall Extrem ")
+st.markdown("The app will help a researcher to get to know \
 more about the given datasets and it's output")
 
 
