@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from PIL import Image
 
 image = Image.open('logos.png')
-st.image(image)
+##st.image(image)
 
 
 #image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
@@ -16,10 +16,9 @@ st.image(image)
 #st.image(image, caption=None, use_column_width='auto')
 
 col1,col2=st.columns([2,2])
-      
-      st.image(image,width=50 ,height=20 ,use_column_width='auto')
-##with col2:
-    ##st.image(image2,width=360,use_column_width='auto')
+
+with col1:
+    st.image(image,width=360,use_column_width='auto')
 
 
 hide_menu_style = """
