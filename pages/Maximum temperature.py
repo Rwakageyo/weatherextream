@@ -15,10 +15,10 @@ image = Image.open('logos.png')
 
 #st.image(image, caption=None, use_column_width='auto')
 
-col1=st.columns([1])
+##col1=st.columns([1])
 
 ##with col1:
-st.image(image,width=60,use_column_width='auto')
+##st.image(image,width=60,use_column_width='auto')
 
 
 hide_menu_style = """
