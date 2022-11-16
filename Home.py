@@ -11,6 +11,7 @@ import plotly.graph_objects as go
 st.title("Rainfall Extream Dashboard")
 st.markdown("The dashboard will help a researcher to get to know \
 more about the given datasets and it's output")
+st.header('My header')
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
   
