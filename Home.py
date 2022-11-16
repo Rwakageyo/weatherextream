@@ -72,7 +72,7 @@ elif chart_visual == 'Bar Chart':
         fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
                              name='District'))
     if selected_status == 'Province':
-        fig.add_trace(go.Bar(x=data.District, y=data.Value_mm,
+        fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
                              name='Province'))
     if selected_status == 'Dates':
         fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
