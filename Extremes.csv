@@ -1,0 +1,230 @@
+Province,District,STN_Name,Value_mm,Date
+Eastern,Bugesera,Juru,77.8,08/01/2021
+Eastern,Bugesera,Karama Isar,103.4,09/05/1979
+Eastern,Bugesera,Karama Kilimbi,103.4,09/05/1979
+Eastern,Bugesera,Nyamata,104.9,10/10/1991
+Eastern,Bugesera,Ruhuha,110.2,20/03/1979
+Eastern,Gatsibo,Gabiro,113,26/02/1973
+Eastern,Gatsibo,Gasange,96,17/12/2012
+Eastern,Gatsibo,Kabarore,66,16/12/2018
+Eastern,Gatsibo,Kiziguro,137,02/03/1978
+Eastern,Gatsibo,Muhura,75,25/12/2019
+Eastern,Gatsibo,Ngarama,86.2,13/01/2016
+Eastern,Gatsibo,Nyagahanga,88,11/11/2008
+Eastern,Gatsibo,Rwimbogo,94,09/01/2021
+Eastern,Kayonza,Akagera,51.5,19/12/1991
+Eastern,Kayonza,Gahini,96.2,01/10/2016
+Eastern,Kayonza,Kabarondo,88.7,29/04/2012
+Eastern,Kayonza,Kawangire,137.2,17/04/2020
+Eastern,Kayonza,Kayonza,44.5,23/04/2022
+Eastern,Kayonza,Murundi,99.2,06/02/2022
+Eastern,Kayonza,Mwiri,96.5,30/10/2017
+Eastern,Kayonza,Ndego,83.4,17/11/2019
+Eastern,Kayonza,Rukara,90,28/01/2005
+Eastern,Kayonza,Rwinkwavu,80.3,17/06/1991
+Eastern,Kirehe,Gahara,80.5,21/10/2021
+Eastern,Kirehe,Kirehe,81.2,02/12/2020
+Eastern,Kirehe,Mpanga,84.6,11/04/2013
+Eastern,Kirehe,Musaza,67.5,05/03/2018
+Eastern,Kirehe,Nyamugali,80.5,22/10/2014
+Eastern,Kirehe,Nyarubuye,116.3,10/09/1945
+Eastern,Kirehe,Rusumo-Bgm,59.2,19/11/1972
+Eastern,Ngoma,Bare,68.2,10/09/1992
+Eastern,Ngoma,Gahororo,90.4,05/04/1960
+Eastern,Ngoma,Jarama,63.4,09/01/2021
+Eastern,Ngoma,Kibungo Kazo,136.9,11/04/1941
+Eastern,Ngoma,Mutenderi,113.4,01/10/2020
+Eastern,Ngoma,Rukira,92.1,14/09/1970
+Eastern,Ngoma,Rukumberi,115,09/05/1979
+Eastern,Ngoma,Sake,84.3,10/05/2021
+Eastern,Ngoma,Zaza,115.9,23/04/1965
+Eastern,Nyagatare,Garden Fresh,42,13/10/2019
+Eastern,Nyagatare,Gatunda,90.2,27/11/2011
+Eastern,Nyagatare,Kagitumba,112,15/09/1951
+Eastern,Nyagatare,Nyagatare,82.4,05/03/2020
+Eastern,Nyagatare,Nyakiga,73.9,21/04/2018
+Eastern,Nyagatare,Rwempasha,73.8,22/10/2010
+Eastern,Rwamagana,Gishari,59.9,01/03/2020
+Eastern,Rwamagana,Gishari,59.9,30/10/2017
+Eastern,Rwamagana,Murehe,76,26/01/1980
+Eastern,Rwamagana,Murehe,76,17/11/2019
+Eastern,Rwamagana,Musha,87,24/12/2012
+Eastern,Rwamagana,Musha,87,28/01/2005
+Eastern,Rwamagana,Mwurire,98.2,18/12/2011
+Eastern,Rwamagana,Mwurire,98.2,17/06/1991
+Eastern,Rwamagana,Nzige,83,06/05/1993
+Eastern,Rwamagana,Nzige,83,19/12/1991
+Eastern,Rwamagana,Ruhunda,83.6,20/02/1978
+Eastern,Rwamagana,Ruhunda,83.6,23/04/2022
+Eastern,Rwamagana,Rwamagana,90,08/07/1939
+Eastern,Rwamagana,Rwamagana,90,17/04/2020
+Kigali,Gasabo,Kabuye Sugar,92.5,07/12/2010
+Kigali,Gasabo,Masaka,143.4,24/04/1974
+Kigali,Gasabo,Rubungo,82.4,12/10/2019
+Kigali,Nyarugenge,Butamwa,75.6,03/03/2020
+Kigali,Nyarugenge,College St Andre,93,18/04/1988
+Kigali,Nyarugenge,Gitega,140,25/12/2019
+Kigali,Nyarugenge,Kabusunzu,75,10/11/1987
+Kigali,Nyarugenge,Kigali Aero,106,22/07/2001
+Kigali,Nyarugenge,Muhima,80,30/09/1987
+Kigali,Nyarugenge,Rubirizi,147,04/12/1993
+Kigali,Nyarugenge,Rugunga,92.6,26/04/1985
+Northern,Burera,Bulera Lac,68.6,11/10/1991
+Northern,Burera,Bungwe,62,02/03/2005
+Northern,Burera,Butaro,60.7,30/10/2021
+Northern,Burera,Kagogo,84.8,28/10/2019
+Northern,Burera,Kinoni,75.5,12/05/2022
+Northern,Burera,Ntaruka,91,08/03/2018
+Northern,Burera,Ruhunde,86.4,06/02/2022
+Northern,Burera,Rwerere Colline,70.8,17/11/1977
+Northern,Gakenke,Cyabingo,79.7,06/05/2020
+Northern,Gakenke,Cyata,70.1,21/05/1991
+Northern,Gakenke,Janja,98.4,18/04/2021
+Northern,Gakenke,Minazi,131,07/05/2016
+Northern,Gakenke,Muyongwe,82,08/05/2016
+Northern,Gakenke,Nemba,124.2,15/06/1974
+Northern,Gakenke,Ruganda,127,22/04/1992
+Northern,Gakenke,Ruli- Musasa,128.9,07/05/2016
+Northern,Gakenke,Rushashi,91.5,24/10/2010
+Northern,Gakenke,Rwankuba,86.5,23/10/1977
+Northern,Gicumbi,Byumba Met,100.9,19/11/1968
+Northern,Gicumbi,Kabeza-Nyam,98.5,01/03/2020
+Northern,Gicumbi,Mulindi Usine,85.6,24/08/1975
+Northern,Gicumbi,Rwesero,66.2,30/09/2014
+Northern,Musanze,Busogo-Isae,69.5,06/05/2020
+Northern,Musanze,Karisoke,46.8,23/10/1991
+Northern,Musanze,Kinigi,169,16/05/1946
+Northern,Musanze,Mukingo,82,22/04/1958
+Northern,Musanze,Musanze,105.9,06/05/1985
+Northern,Musanze,Nyange-Musanze,72.9,16/03/2022
+Northern,Musanze,Remera-Ruhondo,93.7,07/05/2020
+Northern,Musanze,Ruhengeri Aero,74.7,11/05/2002
+Northern,Musanze,Rwaza,85.5,02/12/1969
+Northern,Musanze,Shingiro,90.6,02/09/2013
+Northern,Rulindo,Cyinzuzi,67.8,01/08/2022
+Northern,Rulindo,Mugambazi/Murambi,90.7,06/02/2013
+Northern,Rulindo,Rukozo,62.8,06/10/2016
+Northern,Rulindo,Rulindo,90.3,17/11/1977
+Northern,Rulindo,Rusiga,68.4,01/08/2022
+Northern,Rulindo,Rutongo,111.3,08/04/1979
+Northern,Rulindo,Rwagihura,68.8,25/11/1977
+Southern,Gisagara,Cyili_Rice Cooperative,115.2,2/5/2015
+Southern,Gisagara,Gakoma,97,21/5/2018
+Southern,Gisagara,Gikonko,82.5,16/5/2018
+Southern,Gisagara,Kansi Ecole,136,29/12/1957
+Southern,Gisagara,Kigembe,80.4,6/1/1986
+Southern,Gisagara,Mukindo_Sector,85,23/5/2019
+Southern,Gisagara,Save ,167.4,4/12/2019
+Southern,Huye,Butare Aero,97.1,23/11/1962
+Southern,Huye,Gahororo_Karama_Huye,94.4,11/2/2022
+Southern,Huye,Kigoma-Nyamugali_Huye,83,23/9/2021
+Southern,Huye,Nyakibanda_Grand_Seminaire,128,19/10/1962
+Southern,Huye,Nyamugari,83.5,21/12/2010
+Southern,Huye,Rubona Colline,97.4,11/12/2015
+Southern,Huye,Simbi,85.5,16/3/2017
+Southern,Kamonyi,Gihinga-Gacur,69.5,18/1/2011
+Southern,Kamonyi,Kayenzi,148.7,25/4/1983
+Southern,Kamonyi,Mugina,99.8,28/10/2015
+Southern,Kamonyi,Musambira,57.2,28/11/1989
+Southern,Muhanga,Bulinga,82.3,7/2/1988
+Southern,Muhanga,Kanyanza,99.5,4/5/1988
+Southern,Muhanga,Kibangu,99.3,25/12/1971
+Southern,Muhanga,Kivumu,97,10/11/1990
+Southern,Muhanga,Murambi,102.8,28/5/1982
+Southern,Muhanga,Nyabinoni,99.8,6/1/2021
+Southern,Muhanga,Nyamabuye,91.7,5/12/2019
+Southern,Muhanga,Rugendabari,96.8,24/1/2020
+Southern,Muhanga,Shyogwe,115,28/8/1988
+Southern,Nyamagabe,Buruhukiro,61.6,10/9/2010
+Southern,Nyamagabe,Cyanika,98.3,19/5/1991
+Southern,Nyamagabe,Gatare,95,18/11/2014
+Southern,Nyamagabe,Gikongoro Met,102.6,3/10/2003
+Southern,Nyamagabe,Kaduha,119.6,9/2/2021
+Southern,Nyamagabe,Kigeme,117,24/11/1988
+Southern,Nyamagabe,Kitabi,103.6,12/11/1980
+Southern,Nyamagabe,Mbazi,103.3,13/4/1981
+Southern,Nyamagabe,Mudasomwa,98.7,21/5/2018
+Southern,Nyamagabe,Mushubi,90.6,4/6/2015
+Southern,Nyanza,Busasamana,63.4,5/12/2019
+Southern,Nyanza,Busoro,42.9,4/2/2009
+Southern,Nyanza,Gihisi,89.1,13/5/1982
+Southern,Nyanza,Mweya,94,5/4/1986
+Southern,Nyanza,Nyamiyaga,107,6/4/1986
+Southern,Nyanza,Nyanza,120,9/10/1988
+Southern,Nyanza,Rurangazi,73.3,23/11/2019
+Southern,Nyaruguru,Agase,70.7,18/10/1991
+Southern,Nyaruguru,Cyahinda,160,16/4/1967
+Southern,Nyaruguru,Kibeho,124.5,24/11/1967
+Southern,Nyaruguru,Mata,90,1/4/1975
+Southern,Nyaruguru,Muganza,91.2,18/10/1991
+Southern,Nyaruguru,Munini,68,11/10/1989
+Southern,Nyaruguru,Nshili,89,20/10/1986
+Southern,Nyaruguru,Runyombi,99,29/1/2011
+Southern,Ruhango,Byimana,140.6,6/5/2020
+Southern,Ruhango,Cyeru,104.7,17/12/1989
+Southern,Ruhango,Gisanga,84.8,4/3/1990
+Southern,Ruhango,Gitare,138.8,23/4/1992
+Southern,Ruhango,Gitwe,88,13/4/1941
+Southern,Ruhango,Kabuga,76.5,6/11/1987
+Southern,Ruhango,Kigoma-Ruhango,150,24/11/2016
+Southern,Ruhango,Kinazi,99.6,19/3/2020
+Southern,Ruhango,Mwendo,74.6,20/3/2018
+Western,Karongi,Birambo,89,04/10/1975
+Western,Karongi,Esperance Children,68.5,29/04/2018
+Western,Karongi,Gishyita,130,24/10/1965
+Western,Karongi,Kirinda,115.3,10/05/1962
+Western,Karongi,Mubuga,103,03/10/1951
+Western,Karongi,Mugonero,130,24/10/1965
+Western,Karongi,Nyamishaba,64.3,05/02/1988
+Western,Karongi,Rubengera Met,160,09/05/1947
+Western,Karongi,Rugabano,92.3,27/04/2018
+Western,Karongi,Rugabano Tean Company,98.3,17/11/2019
+Western,Karongi,Twumba,94,09/02/2021
+Western,Ngororero,Gatumba,84.7,07/05/2016
+Western,Ngororero,Kabaya,90.7,03/01/2020
+Western,Ngororero,Muhanda,96.7,01/09/2021
+Western,Ngororero,Muramba Paroisse,119,19/05/1967
+Western,Ngororero,Nyange Ngororero,96,19/10/2017
+Western,Ngororero,Sovu,99,13/08/2011
+Western,Nyabihu,Bigogwe,80.4,15/10/2021
+Western,Nyabihu,Kabatwa,70,23/05/1975
+Western,Nyabihu,Kora,55.7,08/02/1979
+Western,Nyabihu,Rambura,91.5,16/03/1948
+Western,Nyabihu,Rugera,100.7,23/04/2020
+Western,Nyabihu,Rwankeri,113.4,15/10/1972
+Western,Nyamasheke,Bigutu,80.4,4/8/1978
+Western,Nyamasheke,Bumazi,96,30/03/1983
+Western,Nyamasheke,Cyato,75.4,25/09/2020
+Western,Nyamasheke,Gatare,93.6,11/02/1979
+Western,Nyamasheke,Gisakura,96,29/03/1973
+Western,Nyamasheke,Kamatsira Rangiro,152,13/09/1975
+Western,Nyamasheke,Kanjongo,93.8,29/04/2012
+Western,Nyamasheke,Kirimbi,76.4,10/05/2012
+Western,Nyamasheke,Maseka Kirambo,85.2,11/02/1993
+Western,Nyamasheke,Mwaga,70.2,28/03/1973
+Western,Nyamasheke,Mwezi,100.3,01/02/1967
+Western,Nyamasheke,Ntendezi,91,15/05/2018
+Western,Nyamasheke,Nyamasheke,93,01/03/2020
+Western,Nyamasheke,Shangi,80.6,09/02/2021
+Western,Rubavu,Busasamana,96.2,15/10/2018
+Western,Rubavu,Gisenyi Aero,106.7,26/03/2010
+Western,Rubavu,Kanama,89.3,10/06/2020
+Western,Rubavu,Nyundo,95,03/03/2018
+Western,Rubavu,Pfunda,42.4,08/04/1977
+Western,Rubavu,Rwabizige,70.5,10/06/2020
+Western,Rubavu,Tamira,59.4,12/02/1979
+Western,Rusizi,Bugarama,113.6,04/12/2019
+Western,Rusizi,Kamembe Aero,80,21/04/1976
+Western,Rusizi,Mibirizi,128.2,05/02/2009
+Western,Rusizi,Mururu,91.2,08/02/2022
+Western,Rusizi,Nkanka,78,03/03/2019
+Western,Rusizi,Nyakabuye,96.7,04/12/2019
+Western,Rusizi,Shagasha,78,03/09/1972
+Western,Rutsiro,Boneza,87.4,16/06/2021
+Western,Rutsiro,Crete Congo Nil,68.7,05/02/1988
+Western,Rutsiro,Gihango,"105,4",01/05/2020
+Western,Rutsiro,Kivumu,80.4,24/04/2018
+Western,Rutsiro,Murunda,105.3,04/09/1966
+Western,Rutsiro,Mushubati,81.2,05/02/1988
+Western,Rutsiro,Rutsiro,94.4,06/06/2020
+,,,169,
