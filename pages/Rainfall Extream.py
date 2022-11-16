@@ -16,7 +16,7 @@ hide_menu_style = """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
   
 st.title("Rainfall Extream Dashboard")
-st.markdown("The dashboard will help a researcher to get to know \
+st.markdown("This is the Rainfall  Extrem values computed from 1986 to 2021 will help a researcher to get to know \
 more about the given datasets and it's output")
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
