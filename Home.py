@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.graph_objects as go
 ##import hydralit_components as hc
 
-from PIL import Image
+#from PIL import Image
 ##image = Image.open('logos.png')
 ##st.image(image)
   
@@ -13,7 +14,7 @@ more about the given datasets and it's output")
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
   
-data = pd.read_csv("Extreamapp/Extremes.csv")
+data = pd.read_csv("Extremes.csv")
 ### data = pd.read_csv('D:\Extremes.csv')
 
 Province_select = data['Province'].drop_duplicates()
