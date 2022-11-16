@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 #from PIL import Image
 ##image = Image.open('logos.png')
 ##st.image(image)
-st.set_page_config(page_title=welcome, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
