@@ -49,7 +49,7 @@ fig = go.Figure()
   
 if chart_visual == 'Line Chart':
     if selected_status == 'Station_name':
-        fig.add_trace(go.Scatter(x = data.Station_name, y = data.Value_mm,
+        fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
                                  mode = 'lines',
                                  name = 'Value_mm'))
     if selected_status == 'District':
