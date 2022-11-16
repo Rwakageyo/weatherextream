@@ -1,15 +1,19 @@
 import streamlit as st
 import pandas as pd
-import plotly as plt
 import plotly.graph_objects as go
+##import hydralit_components as hc
+
+from PIL import Image
+image = Image.open('logos.png')
+st.image(image)
   
-st.title("Rwanda Weather Extrem Dashboard")
+st.title("Temperature Minimum  Extrem Dashboard")
 st.markdown("The dashboard will help a researcher to get to know \
 more about the given datasets and it's output")
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
   
-data = pd.read_csv("C:/Users/METEO/Desktop/Extreamapp/extremes.csv")
+data = pd.read_csv("C:/Users/METEO/Desktop/Extreamapp/Extremes.csv")
 ### data = pd.read_csv('D:\Extremes.csv')
 
 Province_select = data['Province'].drop_duplicates()
@@ -34,41 +38,41 @@ st.sidebar.title("Select Visual Charts")
 chart_visual = st.sidebar.selectbox('Select Charts/Plot type', 
                                     ('Line Chart', 'Bar Chart', 'Bubble Chart'))
   
-st.sidebar.checkbox("Show Analysis by Extreme Status", True, key = 3)
+st.sidebar.checkbox("Show Analysis by Extreme Status", True, key = 1)
 selected_status = st.sidebar.selectbox('Select Extreme Status',
-                                       options = ['STN_Name', 
-                                                  'Value_mm','District', 
+                                       options = ['Station', 
+                                                  'Value','District','Dates', 
                                                   'Province'])
 
 fig = go.Figure()
   
 if chart_visual == 'Line Chart':
-    if selected_status == 'STN_Name':
-        fig.add_trace(go.Scatter(x = data.STN_Name, y = data.Value_mm,
+    if selected_status == 'Station':
+        fig.add_trace(go.Scatter(x = data.Station, y = data.Value,
                                  mode = 'lines',
-                                 name = 'District'))
+                                 name = 'Station'))
     if selected_status == 'Elementd':
-        fig.add_trace(go.Scatter(x = data.District, y = data.Element,
-                                 mode = 'lines', name = 'Elements'))
-    if selected_status == 'Never_Elementd':
-        fig.add_trace(go.Scatter(x = data.District, y = data.Never_Elementd,
+        fig.add_trace(go.Scatter(x = data.District, y = data.Value,
+                                 mode = 'lines', name = 'Value'))
+    if selected_status == 'Station':
+        fig.add_trace(go.Scatter(x = data.District, y = data.Value,
                                  mode = 'lines',
-                                 name = 'Never_Elementd'))
-    if selected_status == 'Value_mm': 
-        fig.add_trace(go.Scatter(x=data.District, y=data.Value_mm,
+                                 name = 'Value'))
+    if selected_status == 'Value': 
+        fig.add_trace(go.Scatter(x=data.District, y=data.Province,
                                  mode='lines',
-                                 name="Value_mm"))
+                                 name="Province"))
   
 elif chart_visual == 'Bar Chart':
-    if selected_status == 'STNName':
-        fig.add_trace(go.Bar(x=data.District, y=data.STN_Name,
-                             name='STN_Name'))
+    if selected_status == 'Station':
+        fig.add_trace(go.Bar(x=data.District, y=data.Value,
+                             name='Value'))
     if selected_status == 'Element':
-        fig.add_trace(go.Bar(x=data.District, y=data.Value_mm,
-                             name='Value_mm'))
-    if selected_status == 'Never_Element':
-        fig.add_trace(go.Bar(x=data.District, y=data.Element,
-                             name='Never_Elementd'))
+        fig.add_trace(go.Bar(x=data.District, y=data.Value,
+                             name='Station'))
+    if selected_status == 'Province':
+        fig.add_trace(go.Bar(x=data.District, y=data.Value,
+                             name='Station'))
     if selected_status == 'Unknown':
         fig.add_trace(go.Bar(x=data.District, y=data.Unknown,
                              name="Unknown"))
@@ -87,15 +91,15 @@ elif chart_visual == 'Bubble Chart':
                                  marker_size=[40, 60, 80, 60, 40, 50],
                                  name='Elementd'))
           
-    if selected_status == 'Never_Elementd':
+    if selected_status == 'Station':
         fig.add_trace(go.Scatter(x=data.District,
-                                 y=data.Never_Elementd,
+                                 y=data.Station,
                                  mode='markers', 
                                  marker_size=[40, 60, 80, 60, 40, 50],
-                                 name = 'Never_Elementd'))
-    if selected_status == 'Unknown':
+                                 name = 'Station'))
+    if selected_status == 'Station':
         fig.add_trace(go.Scatter(x=data.District,
-                                 y=data.Value_mm,
+                                 y=data.Dates,
                                  mode='markers',
                                  marker_size=[40, 60, 80, 60, 40, 50], 
                                  name="Unknown"))
