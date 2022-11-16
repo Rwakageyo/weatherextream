@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from PIL import Image
 
 image = Image.open('logos.png')
-##st.image(image)
+st.image(image)
 
 
 #image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
