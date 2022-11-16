@@ -15,7 +15,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 #image = Image.open('logos.png')
 #st.image(image)
   
-st.title(" Extream Minimum Temperature")
+st.title("Minimum Temperature Extremes Breaking Records")
 
 st.markdown("This is the  Temperature Minimum  Extrem values computed from 1986 to 2021 will help a researcher to get to know \
 more about the given datasets and it's output")
