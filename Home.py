@@ -7,7 +7,14 @@ import plotly.graph_objects as go
 #from PIL import Image
 ##image = Image.open('logos.png')
 ##st.image(image)
-  
+
+
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 st.title("Rainfall Extream Dashboard")
 st.markdown("The dashboard will help a researcher to get to know \
 more about the given datasets and it's output")
