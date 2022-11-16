@@ -51,14 +51,14 @@ if chart_visual == 'Line Chart':
     if selected_status == 'Station_name':
         fig.add_trace(go.Scatter(x = data.Station_name, y = data.Value_mm,
                                  mode = 'lines',
-                                 name = 'Value_mm'))
+                                 name = 'Station_name'))
     if selected_status == 'District':
         fig.add_trace(go.Scatter(x = data.Station_name, y = data.Value_mm,
-                                 mode = 'lines', name = 'Value_mm'))
+                                 mode = 'lines', name = 'District'))
     if selected_status == 'Station_name':
         fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
                                  mode = 'lines',
-                                 name = 'Value_mm'))
+                                 name = 'Station_name'))
     if selected_status == 'Province': 
         fig.add_trace(go.Scatter(x=data.Station_name, y=data.Value_mm,
                                  mode='lines',
@@ -67,16 +67,16 @@ if chart_visual == 'Line Chart':
 elif chart_visual == 'Bar Chart':
     if selected_status == 'Station_name':
         fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name='Value_mm'))
+                             name='Station_name'))
     if selected_status == 'District':
         fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name='Station_name'))
+                             name='District'))
     if selected_status == 'Province':
         fig.add_trace(go.Bar(x=data.District, y=data.Value_mm,
-                             name='Station_name'))
+                             name='Province'))
     if selected_status == 'Dates':
         fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name="Unknown"))
+                             name="Dates"))
   
 elif chart_visual == 'Bubble Chart':
     if selected_status == 'Station_name':
@@ -97,12 +97,12 @@ elif chart_visual == 'Bubble Chart':
                                  y=data.Value_mm,
                                  mode='markers', 
                                  marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
-                                 name = 'Station_name'))
+                                 name = 'District'))
     if selected_status == 'Station_name':
         fig.add_trace(go.Scatter(x=data.District,
                                  y=data.Value_mm,
                                  mode='markers',
                                  marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
-                                 name="Value_mm"))
+                                 name="Station_name"))
   
 st.plotly_chart(fig, use_container_width=True)
