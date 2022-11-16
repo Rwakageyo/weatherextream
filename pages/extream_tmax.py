@@ -9,26 +9,24 @@ from PIL import Image
 #st.sidebar.image('D:\Radar_Files\Radar_files2DM\extremes\logos.png', use_column_width=True)
 
 
-image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
-image2 = Image.open('D:\Radar_Files\Radar_files2DM\extremes\ext.png')
+##image = Image.open('D:\Radar_Files\Radar_files2DM\extremes\logos.png')
+##image2 = Image.open('D:\Radar_Files\Radar_files2DM\extremes\ext.png')
 
 #st.image(image, caption=None, use_column_width='auto')
 
-col1,col2=st.columns([2,2])
+##col1,col2=st.columns([2,2])
 
-with col1:
-    st.image(image,width=360,use_column_width='auto')
-with col2:
-    st.image(image2,width=360,use_column_width='auto')
-
-
+##with col1:
+    ##st.image(image,width=360,use_column_width='auto')
+##with col2:
+    ##st.image(image2,width=360,use_column_width='auto')
 
 
 st.title(' Rwanda Climate Extremes Breaking Records')
 
 st.markdown('Maximum Temprature extremes')
 
-data = pd.read_csv('D:\Radar_Files\Radar_files2DM\extremes\Tmax.csv')
+data = pd.read_csv('Tmax.csv')
 
 
 Province_select = data['Province'].drop_duplicates()
