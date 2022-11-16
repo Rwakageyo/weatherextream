@@ -12,8 +12,7 @@ st.title("Rainfall Extream Dashboard")
 st.markdown("The dashboard will help a researcher to get to know \
 more about the given datasets and it's output")
 st.subheader('Rwanda  experiences a  range of temperatures and rainfall. The highest rainfall events and the high and low temperatures for each Province  and  District Territory are given in the tables and graphics below.
- All records shown are based on data up to 31 December 2021.
-')
+ All records shown are based on data up to 31 December 2021')
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
   
