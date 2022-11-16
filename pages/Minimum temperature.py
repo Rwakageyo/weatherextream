@@ -14,8 +14,7 @@ st.markdown("This is the  Temperature Minimum  Extrem values computed from 1986 
 more about the given datasets and it's output")
 
 st.sidebar.markdown("Select the Charts/Plots accordingly:")
-
-data = pd.read_csv("C:/Users/METEO/Desktop/Extreamapp/ExtremeTmin.csv")
+data = pd.read_csv("ExtremeTmin.csv")
 ### data = pd.read_csv('D:\Extremes.csv')
 
 Province_select = data['Province'].drop_duplicates()
