@@ -9,8 +9,7 @@ import plotly.graph_objects as go
 ##st.image(image)
   
 st.title("Rainfall Extream Dashboard")
-st.markdown("Rwanda  experiences a  range of temperatures and rainfall. The highest rainfall events and the high and low temperatures for each Province  and  District Territory are given in the tables and graphics below.
- All records shown are based on data up to 31 December 2021'The dashboard will help a researcher to get to know \
+st.markdown("The dashboard will help a researcher to get to know \
 more about the given datasets and it's output")
 
 
