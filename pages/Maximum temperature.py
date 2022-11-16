@@ -15,7 +15,7 @@ image = Image.open('logos.png')
 
 #st.image(image, caption=None, use_column_width='auto')
 
-col1=st.columns([2])
+col1=st.columns([1])
 
 with col1:
     st.image(image,width=360,use_column_width='auto')
