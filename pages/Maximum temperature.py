@@ -6,6 +6,12 @@ import numpy as np
 #import plotly.express as px
 #import matplotlib.pyplot as plt
 from PIL import Image
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 #st.sidebar.image('D:\Radar_Files\Radar_files2DM\extremes\logos.png', use_column_width=True)
 
