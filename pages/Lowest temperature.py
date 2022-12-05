@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 ##import 
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 from PIL import Image
 
@@ -50,8 +50,6 @@ st.sidebar.markdown("The Below menu allows users to select regions of their inte
 data = pd.read_csv("ExtremeTmin.csv")
 
 ### data = pd.read_csv('D:\Extremes.csv',nrows=nrows)
-data
-
 Province_select = data['Province'].drop_duplicates()
 Province_sidebar = st.sidebar.selectbox('Select a Province:', Province_select)
 
