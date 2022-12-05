@@ -9,10 +9,11 @@ from PIL import Image
 
 
 st.set_page_config(
-    page_title="Rwanda weather Extrem",
+    page_title="Rwandan Climate Extremes Monitoring Portal",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
+    
     
 )
 
@@ -29,110 +30,22 @@ with col2:
     st.image(image2,width=30,use_column_width='auto')
 
 
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+st.title("Rwandan Climate Extremes Monitoring Portal ")
+st.markdown("Welcome to Meteo Rwanda’s online home of the Rwandan climate extremes monitoring portal.This website provides comprehensive and timely information about climate extremes of temperature and rainfall. Climate extremes can have significant social, environmental and economic impacts, with floods and high temperature prime examples. One of the most significant impacts of climate variability and climate change occurs through changes in the frequency and severity of extreme events. This portal has been designed to provide a better basis for monitoring such changes so that we can understand, prepare for and adapt to future changes in extreme events.")
 
-st.title("Rainfall Extrem ")
-st.markdown("This is the Rainfall Extrem values computed from 1986 to 2021 will help a researcher to get to know \
-more about the given datasets and it's output")
-
-
-st.sidebar.markdown("Select the Charts/Plots accordingly:")
-  
-data = pd.read_csv("Extremes.csv")
-### data = pd.read_csv('D:\Extremes.csv')
-
-Province_select = data['Province'].drop_duplicates()
-Province_sidebar = st.sidebar.selectbox('Select a Province:', Province_select)
-
-# Get dataframe where Province is the Province_sidebar.
-data1 = data.loc[data.Province == Province_sidebar]
-
-# Get the District column from df1.
-data2 = data1['District'].drop_duplicates()
-#data2 = data1.District
-# Show df2 in the side bar.
-
-#District_select = data['District'].drop_duplicates()
-
-District_sidebar = st.sidebar.selectbox('Select a District:', data2)
-dataps=data.loc[data.District==District_sidebar]
-dataps
-
-st.sidebar.title("Select Visual Charts")
-  
-chart_visual = st.sidebar.selectbox('Select Charts/Plot type', 
-                                    ('Line Chart', 'Bar Chart', 'Bubble Chart'))
-  
-st.sidebar.checkbox("Show Analysis by Extreme Status", True, key = 1)
-selected_status = st.sidebar.selectbox('Select Extreme Status',
-                                       options = ['Province', 
-                                                  'District','Station_name','Value_mm', 
-                                                  'Date'])
-
-fig = go.Figure()
-  
-if chart_visual == 'Line Chart':
-    if selected_status == 'Station_name':
-        fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
-                                 mode = 'lines',
-                                 name = 'Station_name'))
-    if selected_status == 'District':
-        fig.add_trace(go.Scatter(x = data.Station_name, y = data.Value_mm,
-                                 mode = 'lines', name = 'District'))
-    if selected_status == 'Station_name':
-        fig.add_trace(go.Scatter(x = data.District, y = data.Value_mm,
-                                 mode = 'lines',
-                                 name = 'Station_name'))
-    if selected_status == 'Province': 
-        fig.add_trace(go.Scatter(x=data.Station_name, y=data.Value_mm,
-                                 mode='lines',
-                                 name="Province"))
-  
-elif chart_visual == 'Bar Chart':
-    if selected_status == 'Station_name':
-        fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name='Station_name'))
-    if selected_status == 'District':
-        fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name='District'))
-    if selected_status == 'Province':
-        fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name='Province'))
-    if selected_status == 'Dates':
-        fig.add_trace(go.Bar(x=data.Station_name, y=data.Value_mm,
-                             name="Dates"))
-  
-elif chart_visual == 'Bubble Chart':
-    if selected_status == 'Station_name':
-        fig.add_trace(go.Scatter(x=data.Station_name, 
-                                 y=data.Value_mm,
-                                 mode='markers',
-                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
-                                 name='Station_name'))
-          
-    if selected_status == 'Province':
-        fig.add_trace(go.Scatter(x=data.Station_name, y=data.Value_mm,
-                                 mode='markers', 
-                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
-                                 name='Province'))
-          
-    if selected_status == 'District':
-        fig.add_trace(go.Scatter(x=data.Station_name,
-                                 y=data.Value_mm,
-                                 mode='markers', 
-                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
-                                 name = 'District'))
-    if selected_status == 'Station_name':
-        fig.add_trace(go.Scatter(x=data.District,
-                                 y=data.Value_mm,
-                                 mode='markers',
-                                 marker_size=[10,20,30,40, 60, 80, 60, 40, 50,60,70,100,110,120,130,140,150],
-                                 name="Station_name"))
-  
-st.plotly_chart(fig, use_container_width=True)
+### Metric###########
+st.header("Climate Metrics")
+st.markdown("The Metrics below indicates the daily breaking records of Rainfall, Maximum  and Minimum temperature  recorded at different weather stations across the country between 1981 and 2022.")
+col1, col2, col3,col4 = st.columns(4)
+col1.metric(" Maximum Temperature", "70 °C", "1.2 °C")
+col2.metric("Minimum Temperature", "15 °C","1.2 °C")
+col3.metric("Rainfall", "150 mm","1.2 mm")
+###col4.metric("Minimu Temperature", "15 °F","1.2 °F")
